@@ -1,0 +1,68 @@
+body {
+  background: url("https://cdn.glitch.com/432b5bd6-5f4a-408c-9e07-af80669603c1%2Fgalaxy-wallpapers-22-1.jpg?1490895293269") no-repeat fixed center;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  font-size: 2.5em;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2em 0 0.5em 0;
+}
+
+button {
+  padding: 1em;
+  color: #fff;
+  background: transparent;
+  margin: 0 auto;
+  width: 15%;
+  font-size: 1em;
+}
+button:focus {
+  outline: none;
+}
+#quoteBox {
+  height: 10em;
+  width: 70%;
+  padding: 3em 0 2em 0;
+}
+#quoteDisplay, #author {
+  margin: 0 auto;
+  text-align: center;
+}
+#author {
+  font-size: 1.5em;
+}
+.lato{
+  font-family: 'Lato', sans-serif;
+  font-size: 2.5em;
+  font-style: italic;
+}
+.lato2 {
+  font-size: 1.5em;
+}
+
+#line {
+  width: 40%;
+  bottom: 4em;
+  border-bottom: solid white;
+}
+#tweet{
+  align-self: flex-start;
+  margin-top: 15em;
+}
+img {
+  height: 2em;
+  opacity: 0.8;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.8;
+}
