@@ -1,6 +1,8 @@
 body {
   background: url("https://cdn.glitch.com/432b5bd6-5f4a-408c-9e07-af80669603c1%2Fgalaxy-wallpapers-22-1.jpg?1490895293269") no-repeat fixed center;
   font-family: 'Open Sans', sans-serif;
+  overflow: hidden;
+  background-size: cover;
   color: #fff;
 }
 body{
@@ -45,7 +47,7 @@ button:focus {
   font-style: italic;
 }
 .lato2 {
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 #line {
@@ -65,4 +67,74 @@ a{
   text-decoration: none;
   color: #fff;
   opacity: 0.8;
+}
+/* landscape */
+@media only screen
+    and (min-device-width : 375px)
+    and (max-device-width : 667px)
+    and (width : 667px)
+    and (height : 375px)
+    and (orientation : landscape)
+    and (color : 8)
+    and (device-aspect-ratio : 375/667)
+    and (aspect-ratio : 667/375)
+    and (device-pixel-ratio : 2)
+    and (-webkit-min-device-pixel-ratio : 2)
+{ }
+
+
+/* portrait */
+
+@media (max-device-width: 375px)
+  /*only screen
+    and (min-device-width : 375px)
+    and (max-device-width : 667px)
+    and (width : 375px)
+    and (height : 559px)
+    and (orientation : portrait)
+    and (color : 8)
+    and (device-aspect-ratio : 375/667)
+    and (aspect-ratio : 375/559)
+    and (device-pixel-ratio : 2)
+    and (-webkit-min-device-pixel-ratio : 2)*/
+{
+  h1 {
+    font-size: 3.5em;
+  }
+  .lato{
+  font-family: 'Lato', sans-serif;
+  font-size: 3em;
+  font-style: italic;
+}
+.lato2 {
+  font-size: 2em;
+  font-style: bold;
+}
+  #author {
+    font-size: 2em;
+    margin-top: 1em;
+  }
+  #quoteBox{
+    height: 22em;
+    width: 90vw;
+    margin-top: 1em;
+  }
+  button{
+  border: 3px solid #fff;
+  border-radius: 4px;
+  font-size: 2.5em;
+    width: 30%;
+    padding: 0.5em 0;
+    margin-top: 1em;
+  }
+
+  img {
+    height: 3em;
+  }
+  a {
+    font-size: 1.5em;
+  }
+  #tweet {
+    margin-top: 25em;
+  }
 }
